@@ -44,11 +44,6 @@ const App: () => React$Node = () => {
           <View style={styles.carousel}>
             <MyCarousel />
           </View>
-          {/* {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )} */}
         </ScrollView>
       </SafeAreaView>
     </>
